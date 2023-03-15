@@ -1,0 +1,14 @@
+{
+  "name": "portfolio-com-sass",
+  "version": "1.0.0",
+  "description": "My Newest Portfolio Landing Page",
+  "main": "main.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/style.scss css/style.css -w"
+  },
+  "author": "Gregório Almeida",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}

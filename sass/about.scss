@@ -1,0 +1,64 @@
+@import "variables";
+
+.about__section {
+  line-height: 1.5;
+  color: $white;
+}
+
+.about__section h1 {
+  font-family: $primary-font;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 76px;
+  letter-spacing: 0em;
+  text-transform: uppercase;
+  color: $blue;
+  margin-bottom: -15px;
+}
+
+.about__section p {
+  margin-top: 15px;
+  text-align: justify;
+  width: 60%;
+  font-family: $secondary-font;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 2;
+}
+
+.about__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.about__wrapper a {
+  text-decoration: none;
+  color: $light-pink;
+}
+
+.about__wrapper a:hover {
+  color: $white;
+}
+
+.ul__wrapper {
+  display: grid;
+  margin-top: 15px;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  justify-items: center;
+  width: 50%;
+}
+
+.ul__wrapper li {
+  padding: 0;
+  color: $blue;
+  translate: scale(1) 500ms;
+  list-style-type: none;
+}
+
+.grid__icons {
+  width: 40px;
+  height: 40px;
+}

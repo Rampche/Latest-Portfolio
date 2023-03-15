@@ -1,0 +1,42 @@
+@import "variables";
+
+.navbar__wrapper {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  width: 100%;
+  top: 0px;
+  height: 60px;
+}
+
+.navbar {
+  &__lists {
+    display: flex;
+    list-style-type: none;
+  }
+
+  &__lists li {
+    padding: 0 0 0 50px;
+  }
+
+  &__anchors {
+    font-family: "JetBrains Mono";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.6;
+    text-align: left;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 3px 10px;
+    /* transition: 200ms ease-in; */
+  }
+
+  &__anchors:hover {
+    width: 100%;
+    height: 100%;
+    background: $light-pink;
+    border-radius: 5px;
+  }
+}

@@ -1,0 +1,80 @@
+@import "variables";
+
+.contact {
+  margin-top: 100px;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact img {
+  height: 900px;
+  width: 1800px;
+  position: absolute;
+}
+
+.contact__me {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact__me p {
+  margin-top: 30px;
+  color: $white;
+  font-size: 23px;
+  font-family: "Jetbrains Mono";
+  text-align: center;
+  line-height: 1.5;
+}
+.contact__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -150px;
+}
+
+.icons__wrapper {
+  width: 40%;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icons__wrapper li {
+  border: 1px solid $blue;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  list-style-type: none;
+  transition: 0.15s ease-in;
+}
+
+.icons__wrapper a {
+  height: 48px;
+  width: 48px;
+  position: absolute;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.15s ease-in;
+}
+
+.icons__wrapper li:hover {
+  background: $light-pink;
+  border: 1px solid $light-pink;
+}
+
+.icons__wrapper li:hover > a {
+  filter: brightness(0) invert(1);
+}
+
+.icons__wrapper img {
+  width: 25px;
+  height: 25px;
+}

@@ -1,0 +1,17 @@
+.navbar__hamburguer {
+  width: 45px;
+  height: 45px;
+  display: none;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  right: 1rem;
+  top: 0.75rem;
+}
+
+.hbg__line {
+  background-color: #84a8d1;
+  height: 3px;
+  width: 35px;
+  border-radius: 2px;
+}
