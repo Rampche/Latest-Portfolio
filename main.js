@@ -14,7 +14,7 @@ const projects = [
     link: 'https://github.com/Rampche/form-model-html-css',
   },
   { name: 'guess-a-number', link: 'https://github.com/Rampche/guess-a-number' },
-  { name: 'pokedex', link: 'sample' },
+  { name: 'pokedex', link: 'pokedex-js-grg.netlify.app' },
   {
     name: 'github-finder',
     link: 'https://rampche.github.io/github-profile-finder/',
